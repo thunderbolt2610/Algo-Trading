@@ -1,0 +1,9 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/styles/transactions.css' %}">
+{% endblock head %}
+{% block body %}
+    <p>check previous transactions here</p>
+    <a href="http://127.0.0.1:8000">check</a>
+{% endblock body %}
